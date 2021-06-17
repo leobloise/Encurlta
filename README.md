@@ -2,7 +2,7 @@
 
 Esse encurtador de URL foi criado para colocar em prática os conceitos aprendidos de React, HTML, CSS, Javascript e Node JS. A partir disso, realizei a construção de ponta a ponta de uma aplicação web cujo o foco é o encurtamento de URLS. 
 
-![PrimeiraPagina]('./assets/page.png')
+<img src="./assets/page.png">
 
 
 ## Problema
