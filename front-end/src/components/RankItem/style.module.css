@@ -1,0 +1,19 @@
+.rankitem {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0;
+}
+
+.rankitem:not(.rankitem:last-child) {
+    border-bottom: 1px solid rgb(168, 81, 168);
+}
+
+.rankitem p {
+    font-size: 3rem;
+    color: #d193d6;
+}
+
+.rankitem a {
+    font-size: 2rem;
+    color: #eedd6e;
+}

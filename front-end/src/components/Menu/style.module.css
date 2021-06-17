@@ -1,0 +1,20 @@
+.menuNav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menuNav ul li a{
+    text-decoration: none;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #d193d6;
+    text-transform: uppercase;
+}
+
+.menuNav ul li a:hover {
+    color: #eedd6e;
+}
+
+#active {
+    color: #a5e7c3;
+}

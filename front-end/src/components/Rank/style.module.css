@@ -1,0 +1,53 @@
+.section__rank {
+    padding: 3rem;
+    border-radius: 1rem;
+    background-color: #b1709a;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.section__rank .refreshIcon {
+    position: absolute;
+    top: 13px;
+    cursor: pointer;
+    right: 30%;
+}
+
+.section__rank ul {
+    align-self: stretch;
+}
+
+.section__rank span {
+    font-size: 3rem;
+    position: absolute;
+    top: 7px;
+    animation: arcoiris 2s 0s infinite;
+}
+
+@keyframes arcoiris {
+    
+    0%{
+        color: red;
+    }
+    14% {
+        color: orange;
+    }
+    28% {
+        color: yellow;
+    }
+    42% {
+        color: green;
+    }
+    56% {
+        color: blue;
+    }
+    70%{
+        color: indigo;
+    }
+    100% {
+        color: purple;
+    }
+}
