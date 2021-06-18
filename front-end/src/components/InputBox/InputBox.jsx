@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import style from './style.module.css';
-import shortUrl from '../../helpers/ShortUrl';
-import Url from '../../model/Url';
+import shortUrl from '../../helpers/shortUrl';
+import validateUrl from '../../helpers/validateUrl';
 
 
 export default function InputBox(props) {
@@ -27,7 +27,7 @@ export default function InputBox(props) {
         
         const label = document.querySelector(`.${style.section__input} form label`);
         
-        const urlValida = Url(url);
+        const urlValida = validateUrl(url);
 
         if(!urlValida.valido) {
             label.textContent = urlValida.msg;

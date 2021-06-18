@@ -1,4 +1,4 @@
-export default function Url(url) {
+export default function validateUrl(url) {
 
     if(url.length < 10) {
         return {

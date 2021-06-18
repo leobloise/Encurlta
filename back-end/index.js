@@ -7,7 +7,7 @@ prepareServer()
     app = routes(app);
 
     app.listen(port, () => {
-        console.log('Servidor Online')
+        console.log('Servidor Online na porta ' + port)
     })
 
 })
