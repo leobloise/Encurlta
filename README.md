@@ -27,9 +27,13 @@ Primeiro, você precisa montar as imagens localmente e, em seguida, iniciar o do
 <code>
 
 cd front-end/ <br>
+    
 npm run build_docker<br>
+
 cd .. <br>
+
 cd back-end/ <br>
+
 npm run build_docker <br>
 cd .. <br>
 docker-compose up
