@@ -1,19 +1,10 @@
-import Url from "../../models/Url.js";
+import { Rank } from "../../controllers/Rank.js"
+
+const rankController = new Rank()
 
 export default function rankRoute(app) {
 
-    const url = new Url();
-
-    app.get('/bestFiveUrls', (req, res) => {
-        url.bestFive()
-        .then(response => {
-            res.status(200)
-            .send(
-                response
-            )
-        })
-        .catch(err => console.log(err))
-    })
+    app.get('/bestFiveUrls', rankController.bestFive)
 
     return app
 

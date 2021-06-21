@@ -18,3 +18,20 @@ Por fim, pode utilizar o comando padrão para iniciar as aplicações:
 <code>
     npm start
 </code>
+
+
+### Como utilizar com o docker e o docker-compose ?
+
+Primeiro, você precisa montar as imagens localmente e, em seguida, iniciar o docker-compose. Segue a ordem dos comandos necessários.
+
+<code>
+
+cd front-end/ <br>
+npm run build_docker<br>
+cd .. <br>
+cd back-end/ <br>
+npm run build_docker <br>
+cd .. <br>
+docker-compose up
+
+</code>

@@ -13,7 +13,8 @@
     "dev": "nodemon ./app/index.js",
     "start": "node index.js",
     "inittest": "jest --init",
-    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
+    "build_docker": "docker build -t back-end:encurlta ."
   },
   "type": "module",
   "devDependencies": {
